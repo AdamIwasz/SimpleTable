@@ -28,6 +28,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
+    override var prefersStatusBarHidden: Bool{
+        true
+    }
 
 }
